@@ -1,0 +1,97 @@
+/*
+Theme Name: Twenty Twenty Child 
+Theme URI: https://www.elegantthemes.com/gallery/divi/
+Description: Twenty Twenty Child Theme
+Author: Wordpress
+Author URI: https://www.wordpress.com
+Template: twentytwenty
+Version: 1.0.11
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light
+Text Domain: twentytwenty-child
+*/
+ 
+// Custom styles go here
+
+/* === Single Month Page === */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: Helvetica, sans-serif;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main .col {
+    float: left;
+}
+h1.post-title {
+    color: #69603e;
+    font-size: 34px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+.month-post {
+    color: #69603e;
+    width: 75%;
+    display: block;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.month-gallery {
+    width: 96%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.month-img {
+    list-style: none;
+    display: inline-block;
+}
+.month-gallery-img {
+    border-radius: 10px;
+}
+
+/* === Shpard Feature Page === */
+h1.page-title {
+    color: white;
+    display: block;
+    text-align: center;
+}
+.month-header {
+    width: 100%;
+    background-color: #d61347;
+}
+.shepard-description-container {
+    width: 33%;
+    margin: auto;
+    padding-bottom: 1px;
+    text-align: center;
+}
+.shepard-description {
+    text-align: center;
+    color: white;
+}
+.month-gallery-post {
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    border: 3px solid #f5efe0;
+}
+.month-gallery-post:hover { 
+    border-radius: 10px;
+    border: 3px solid #d61347; 
+}
+a.month-link{
+    text-decoration: none;
+}
+.month-post-age {
+    font-size: 1.2em;
+}
